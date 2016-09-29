@@ -4,7 +4,7 @@ description: "Mathematical, Computational, and Systems Biology"
 url: "http://nielab.github.io"
 
 # Build settings
-baseurl: ""
+baseurl: 
 markdown: kramdown
 gems:
       - jekyll-sitemap
