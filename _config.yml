@@ -1,0 +1,10 @@
+# Site settings
+title:  Nie Lab, University of California Irvine
+description: "Mathematical, Computational, and Systems Biology"
+url: "http://nielab.github.io"
+
+# Build settings
+baseurl: ""
+markdown: kramdown
+gems:
+      - jekyll-sitemap
