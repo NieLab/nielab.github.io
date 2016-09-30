@@ -844,5 +844,6 @@
 
 	.indeximages {
 		width: 40%;
-		text-align: center;
+		display: block;
+    margin: auto;
 	}
