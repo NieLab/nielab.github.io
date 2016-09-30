@@ -558,13 +558,43 @@
 			margin: 0;
 		}
 
-		.box.post .blogpost {
+		.box.highlight {
+			text-align: center;
+		}
+
+		.blogbox.post {
+			position: relative;
+			margin: 0 0 2em 0;
+			text-align: center;
+		}
+
+		.blogbox.post:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		.blogbox.post .inner {
+			/* margin-left: calc(30% + 2em); */
+		}
+
+		.blogbox.post .inner > :last-child {
+			margin-bottom: 0;
+		}
+
+
+		.blogbox.post .inner {
 			text-align: left;
 			margin-left: calc(30% + 2em);
 		}
 
-		.box.post .blogpost h3 {
+		.blogbox.post h3 {
 			text-align: center;
+		}
+
+		.blogbox.post .image {
+			width: 30%;
+			margin: 0;
 		}
 
 /* Header */
