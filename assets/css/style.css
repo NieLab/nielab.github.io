@@ -842,6 +842,7 @@
 
 /* Image Classes */
 
-	.imagehalf {
-		width: 300px;
+	.indeximages {
+		width: 40%;
+		align: center;
 	}
