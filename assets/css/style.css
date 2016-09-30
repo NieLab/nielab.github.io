@@ -565,7 +565,6 @@
 		.blogbox.post {
 			position: relative;
 			margin: 0 0 2em 0;
-			text-align: justify;
 		}
 
 		.blogbox.post:after {
@@ -584,7 +583,7 @@
 
 
 		.blogbox.post .inner {
-			text-align: left;
+			text-align: justify;
 			margin-left: calc(30% + 2em);
 		}
 
