@@ -536,6 +536,7 @@
 	.box.post {
 		position: relative;
 		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 		.box.post:after {
@@ -546,10 +547,6 @@
 
 		.box.post .inner {
 			/* margin-left: calc(30% + 2em); */
-		}
-
-		.box.post h3 {
-			text-align: center;
 		}
 
 			.box.post .inner > :last-child {
