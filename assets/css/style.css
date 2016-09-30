@@ -560,6 +560,7 @@
 
 		.box.post .blogpost {
 			text-align: left;
+			margin-left: calc(30% + 2em);
 		}
 
 		.box.post .blogpost h3 {
