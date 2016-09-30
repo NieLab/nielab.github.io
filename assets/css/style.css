@@ -849,3 +849,7 @@
     margin: auto;
 		margin-bottom: 1cm;
 	}
+
+	.blogimages {
+		margin-left: calc(30% + 2em);
+	}
