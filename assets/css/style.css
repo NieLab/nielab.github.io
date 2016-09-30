@@ -558,6 +558,14 @@
 			margin: 0;
 		}
 
+		.box.post .blogpost {
+			text-align: left;
+		}
+
+		.box.post .blogpost h3 {
+			text-align: center;
+		}
+
 /* Header */
 
 	#header {
