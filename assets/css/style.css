@@ -545,7 +545,7 @@
 		}
 
 		.box.post .inner {
-			margin-left: calc(30% + 2em);
+			/* margin-left: calc(30% + 2em); */
 		}
 
 			.box.post .inner > :last-child {
