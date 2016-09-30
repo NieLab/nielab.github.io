@@ -533,10 +533,14 @@
 		text-align: center;
 	}
 
+	.box.post h3 {
+		text-align: center;
+	}
+
 	.box.post {
 		position: relative;
 		margin: 0 0 2em 0;
-		text-align: center;
+		text-align: justify;
 	}
 
 		.box.post:after {
