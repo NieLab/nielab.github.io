@@ -548,12 +548,16 @@
 			/* margin-left: calc(30% + 2em); */
 		}
 
+		.box.post h3 {
+			text-align: center;
+		}
+
 			.box.post .inner > :last-child {
 				margin-bottom: 0;
 			}
 
 		.box.post .image {
-			width: 30%;
+			width: 100%;
 			margin: 0;
 		}
 
