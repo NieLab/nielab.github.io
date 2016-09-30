@@ -839,3 +839,9 @@
 			text-align: center;
 			font-size: 0.9em;
 		}
+
+/* Image Classes */
+
+	.imagehalf {
+		width: 50%;
+	}
