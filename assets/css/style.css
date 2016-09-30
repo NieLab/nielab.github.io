@@ -565,7 +565,7 @@
 		.blogbox.post {
 			position: relative;
 			margin: 0 0 2em 0;
-			text-align: center;
+			text-align: justify;
 		}
 
 		.blogbox.post:after {
@@ -589,7 +589,7 @@
 		}
 
 		.blogbox.post h3 {
-			text-align: justify;
+			text-align: center;
 		}
 
 		.blogbox.post .image {
