@@ -35,6 +35,17 @@
 		line-height: 1.65em;
 	}
 
+	#column {
+	        width: 30em;
+		float: left;
+		padding: 2em;
+	}
+
+	#right-col {
+	        width: 30em;
+		padding: 2em;	 	 
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
@@ -63,7 +74,7 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h3b, h4, h5, h6 {
 		color: inherit;
 		font-weight: 600;
 		line-height: 1.75em;
@@ -88,6 +99,12 @@
 	h3 {
 		font-size: 1.2em;
 		letter-spacing: -0.025em;
+	}
+
+	h3b {
+	        font-size: 0.8em;
+		letter-spacing: -0.025em;
+		font-weight: 300;
 	}
 
 	sub {
@@ -745,7 +762,8 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../images/banner.jpg");
+	        /* NieLabTree2 is not wide enough... */
+	        background-image: url("../images/NieLabTrees.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
