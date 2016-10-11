@@ -30,7 +30,7 @@
 	body, input, select, textarea {
 		color: #474747;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.65em;
 	}
@@ -39,11 +39,6 @@
 	        width: 30em;
 		float: left;
 		padding: 2em;
-	}
-
-	#right-col {
-	        width: 30em;
-		padding: 2em;	 	 
 	}
 
 	a {
@@ -66,6 +61,7 @@
 		font-weight: 600;
 	}
 
+	
 	em, i {
 		font-style: italic;
 	}
@@ -74,6 +70,11 @@
 		margin: 0 0 2em 0;
 	}
 
+	h7 {
+		color: inherit;
+		font-family: "Source Sans Pro semibold; Sans Serif"
+	}
+	
 	h1, h2, h3, h3b, h4, h5, h6 {
 		color: inherit;
 		font-weight: 600;
@@ -121,7 +122,6 @@
 
 	hr {
 		border-top: solid 1px #e0e0e0;
-		border: 0;
 		margin-bottom: 1.5em;
 	}
 
@@ -149,7 +149,7 @@
 	}
 
 		header.major h2 {
-			font-size: 2.25em;
+			font-size: 2em;
 		}
 
 		header.major p {
@@ -335,6 +335,10 @@
 
 /* Lists */
 
+li{
+    margin: 10px 0;
+}
+ 
 	ol.default {
 		list-style: decimal;
 		padding-left: 1.25em;
@@ -350,7 +354,7 @@
 	}
 
 		ul.default li {
-			padding-left: 0.5em;
+		    padding-left: 0.5em;
 		}
 
 	ul.links li {
@@ -556,8 +560,9 @@
 
 	.box.post {
 		position: relative;
-		margin: 0 0 2em 0;
+		margin: 0 0 3em 0;
 		text-align: justify;
+		width: 100%;
 	}
 
 		.box.post:after {
@@ -761,6 +766,54 @@
 
 /* Banner */
 
+
+	#research-banner {
+	        background-image: url("../images/research-banner2.jpg");
+		background-position: center center;
+		background-size: cover;
+		height: 22em;
+		text-align: center;
+		position: relative;
+	}
+
+
+			#research-banner header {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background: #212121;
+			background: rgba(27, 27, 27, 0.75);
+			color: #fff;
+			padding: 1.5em 0;
+		}
+
+			#research-banner header h2 {
+				display: inline-block;
+				margin: 0;
+				font-size: 1.25em;
+				vertical-align: middle;
+			}
+
+				#research-banner header h2 em {
+					opacity: 0.75;
+				}
+
+				#research-banner header h2 a {
+					border-bottom-color: rgba(255, 255, 255, 0.5);
+				}
+
+					#research-banner header h2 a:hover {
+						border-bottom-color: transparent;
+					}
+
+			#research-banner header .button {
+				vertical-align: middle;
+				margin-left: 1em;
+			}
+
+	
+	
 	#banner {
 	        /* NieLabTree2 is not wide enough... */
 	        background-image: url("../images/NieLabTrees.jpg");
@@ -819,9 +872,9 @@
 		.wrapper.style2 {
 			background-color: #fff;
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
-			background-position: top left,						bottom left,					top left;
-			background-size: 100% 6em,						100% 6em,						auto;
-			background-repeat: no-repeat,						no-repeat,						repeat;
+			background-position: top left, bottom left, top left;
+			background-size: 100% 6em, 100% 6em, auto;
+			background-repeat: no-repeat, no-repeat, repeat;
 		}
 
 		.wrapper.style3 {

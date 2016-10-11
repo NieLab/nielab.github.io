@@ -5,8 +5,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Nie Lab, University of California Irvine</title>
+
+<head>
+<title>Nie Lab UCI</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -20,41 +21,43 @@
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-wide.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+
+     <link rel="icon" href="{{ site.baseurl }}/assets/images/mycell-nie.png" />
+
+</head>
+
+<body>
 
 		<!-- Header -->
 			<div id="header">
 
 				<!-- Logo -->
-					<h1>Nie Lab, University of California Irvine</h1>
+					<h2>Nie Lab &nbsp; | &nbsp; University of California, Irvine</h2>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							{% assign current = page.url | downcase | split: '/' %}
-							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index">Home</a></li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
-							<li {% if current[1] == 'labmembers.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/labmembers">People</a></li>
-							<li>
-							<a href="">Research</a>
-								<ul>
-									<li><a href="{{ site.baseurl }}/research/zebhind.html">Zebrafish Hindbrain Development</a></li>
-									<li><a href="{{ site.baseurl }}/research/emt.html">Epithelial to Mesenchymal Transitions</a></li>
-									<li><a href="{{ site.baseurl }}/research/hsc.html">Hematopoietic Stem Cells</a></li>
-									<li>
-										<a href="">Numerical Methods</a>
-										<ul>
-											<li><a href="{{ site.baseurl }}/research/numsde.html">Stiff Stochastic Differential Equations</a></li>
-											<li><a href="{{ site.baseurl }}/research/numrde.html">Reaction Diffusion Equation</a></li>
-											<li><a href="{{ site.baseurl }}/research/numsrde.html">Stochastic Reaction Diffusion Equation</a></li>
-										</ul>
-									</li>
-									<li><a href="{{ site.baseurl }}/research/breastcancer.html">Breast Cancer</a></li>
-								</ul>
-							</li>
-							<li {% if current[1] == 'publications.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/publications">Publications</a></li>
-							<li {% if current[1] == 'currentopenings.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/currentopenings">Openings/Contact</a></li>
-						      </ul>
-					</nav>
-			</div>
+
+						 {% assign current = page.url | downcase | split: '/' %}
+
+	<li {% if current[1] == 'index' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index">Home</a></li>
+	<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
+	<li {% if current[1] == 'labmembers' %}class="current"{% endif %}><a href="{{ site.baseurl }}/lab-members">People</a></li>
+	<li {% if current[1] == 'research' %}class="current"{% endif %}><a href="{{ site.baseurl }}/research-topics">Research</a></li>
+	<li {% if current[1] == 'publications.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/publications">Publications</a></li>
+	<li {% if current[1] == 'resources' %}class="current"{% endif %}><a href="{{ site.baseurl }}/resources">Resources</a></li>
+	<li {% if current[1] == 'currentopenings.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/currentopenings"> Openings/Contact</a></li>
+
+      </ul>
+      </nav>
+    </div>
+
+
+
+<script type="text/javascript">
+    $(function () {
+    $('.tlt').textillate();
+    })
+
+</script>
+    
