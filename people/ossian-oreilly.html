@@ -1,0 +1,82 @@
+---
+title: Ossian O'Reilly
+layout: default
+---
+
+<section class="wrapper style1">
+  <div class="container">
+    <div id="content">
+      <article>
+
+      <h3>Ossian O'Reilly<h3b>, Visiting PhD student</h3b></h3>
+
+    <div style="max-width: 50em; text-align: justify; font-size:0.9em;">
+      
+      <span class="image left"><img src="{{ site.baseurl }}/assets/images/ooreilly.png" style="width:10em" alt="" /></span>  
+      
+      <p>
+      I am PhD student in Geophysics, Stanford University and in Computational Mathemathics,
+      Link&ouml;ping University, Sweden. My advisors are <a href="https://pangea.stanford.edu/~edunham/">Eric M. Dunham<a>
+          (Stanford) and <a href="http://users.mai.liu.se/janno11/">Jan Nordstr&ouml;m</a> (Linkoping University). I am
+expected to graduate in the end of 2016. In my research I focus on the development of high-order numerical methods for wave
+propagation in solids containing faults and fluid-filled fractures. 
+      </p>
+
+      <p>
+      <a href="https://www.researchgate.net/profile/Ossian_OReilly">Researchgate</a>  
+      <a href="https://scholar.google.com/citations?user=9dXEhgIAAAAJ&hl=en&oi=ao">Google Scholar</a>
+      <a href="https://github.com/ooreilly">Github</a>
+      </p>
+
+      <br>
+      <p>
+The following paragraphs explains more about my research that I conducted during my PhD. It is the abstract of my PhD
+thesis (work in progress).
+      </p>
+
+      <p>
+This thesis develops numerical methods for the simulation of wave propagation in solids containing faults and
+fluid-filled fractures. These techniques have applications in earthquake hazard analysis, seismic imaging of
+reservoirs, and volcano seismology. A central component of this work is the coupling of mechanical systems. This
+aspect involves the
+coupling of both ordinary differential equations (ODE)s and partial differential equations (PDE)s along curved interfaces.   
+All of these problems satisfy a mechanical energy balance. This mechanical energy balance is mimicked by the numerical scheme using high-order
+accurate difference
+approximations that satisfy the principle of summation by parts, and by weakly enforcing the coupling conditions. 
+      </p>
+
+      <p>
+The first part of the thesis considers the simulation of dynamic earthquake ruptures along non-planar fault geometries
+and the simulation of seismic wave radiation from earthquakes, when the earthquakes are idealized as point moment tensor sources. The dynamic earthquake rupture process is simulated by
+coupling the elastic wave equation at a fault interface to nonlinear ODEs that describe the fault mechanics. The fault
+geometry is complex and treated by combining structured and unstructured grid techniques. In other applications, when
+the earthquake source dimension is smaller than wavelengths of interest, the earthquake can be accurately described by
+a point moment tensor source localized at a single point. The numerical challenge is to discretize the point source
+with high-order accuracy and without producing spurious oscillations.
+      </p>
+
+      <p>
+The second part of the thesis presents a numerical method for wave propagation in and around fluid-filled fractures. This
+problem requires the coupling of the elastic wave equation to a fluid inside curved and branching fractures in the
+solid. The fluid model is a lubrication approximation that incorporates fluid inertia, compressibility, and viscosity. The fracture geometry can have local irregularities such
+as constrictions and tapered tips. The numerical method discretizes the fracture geometry by using
+curvilinear multiblock grids and applies implicit-explicit time stepping to isolate and overcome stiffness 
+arising in the semi-discrete equations from viscous diffusion terms, fluid compressibility, and the particular
+enforcement of the fluid-solid coupling conditions.
+ This numerical method is applied to study the interaction of waves in a fracture-conduit
+system. A methodology to constrain fracture geometry for oil and gas (hydraulic fracturing) and volcano seismology
+applications is proposed.
+      </p>
+
+      <p>
+The third part of the thesis extends the summation-by-parts methodology to staggered grids. This extension reduces
+numerical dispersion and enables the formulation of stable and high-order accurate multiblock discretizations for wave
+equations in first order form on staggered grids. Finally, the summation-by-parts methodology on staggered grids is
+further extended to second derivatives and used for the treatment of coordinate singularities in axisymmetric wave
+propagation. 
+</p>
+			 
+      </article>
+    </div>
+  </div>
+</section>
