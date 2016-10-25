@@ -40,12 +40,12 @@
 
 						 {% assign current = page.url | downcase | split: '/' %}
 
-	<li {% if current[1] == 'index' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index">Home</a></li>
-	<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
-	<li {% if current[1] == 'labmembers' %}class="current"{% endif %}><a href="{{ site.baseurl }}/lab-members">People</a></li>
-	<li {% if current[1] == 'research' %}class="current"{% endif %}><a href="{{ site.baseurl }}/research-topics">Research</a></li>
+	<li {% if current[1] == 'index/' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index">Home</a></li>
+	<li {% if current[1] == 'news/' %}class="current"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
+	<li {% if current[1] == 'lab-members.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/lab-members">People</a></li>
+	<li {% if current[1] == 'research-topics.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/research-topics">Research</a></li>
 	<li {% if current[1] == 'publications.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/publications">Publications</a></li>
-	<li {% if current[1] == 'resources' %}class="current"{% endif %}><a href="{{ site.baseurl }}/resources">Resources</a></li>
+	<li {% if current[1] == 'resources.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/resources">Resources</a></li>
 	<li {% if current[1] == 'currentopenings.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/currentopenings"> Openings/Contact</a></li>
 
       </ul>
