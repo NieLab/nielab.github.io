@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA;;;;EAIE;AAEF,WAAW;AAEV,6BAA8B;EAC7B,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,KAAK",
+"sources": ["../../assets/sass/style-narrow.scss"],
+"names": [],
+"file": "style-narrow.css"
+}
