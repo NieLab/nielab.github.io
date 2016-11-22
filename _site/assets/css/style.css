@@ -9,6 +9,17 @@
 
 /* Basic */
 
+
+.alignleft {
+	float: left;
+}
+.aligncenter {
+	float: center;
+}
+.alignright {
+	float: right;
+}
+
 	body,
 	#skel-layers-wrapper {
 		background: #f7f7f7 url("images/bg01.png");
@@ -768,7 +779,7 @@ li{
 
 
 	#research-banner {
-	        background-image: url("../images/research-banner3.jpg");
+	        background-image: url("../images/research-banner4.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 22em;

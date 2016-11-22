@@ -26,14 +26,22 @@ layout: default
 					  <a href="#" class="image left"><img src="{{ site.baseurl }}{{ post.featured }}" alt=""></a>
 
 					<div class="inner">
-					  <h3> <a href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }} </a></h3>
 
-					  {{ post.excerpt }}
+					  <div id="news-title">
+					    <p class="alignright"> {{ post.date | date: '%B %d, %Y' }} </p>
+					    <p class="aligncenter"> <h3><a href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }} </a></h3></p>
+					  </div>
+					  
+					  <p style="align:justify;">{{ post.excerpt }} </p>
+					  
+					  <div style="clear: both;"></div>
 
 					  <!--footer>
 					  <a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
 					  </footer -->
 
+					  <hr>
+					  
 					</div>
 					</div>
 					</section>
