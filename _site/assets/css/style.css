@@ -25,6 +25,12 @@
     
 }
 
+.research {
+    min-height: 60em;
+    text-align: justify;
+}
+
+
 	body,
 	#skel-layers-wrapper {
 		background: #f7f7f7 url("images/bg01.png");
