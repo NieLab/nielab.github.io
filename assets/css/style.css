@@ -20,6 +20,11 @@
 	float: right;
 }
 
+.img {
+    width: 50em;
+    
+}
+
 	body,
 	#skel-layers-wrapper {
 		background: #f7f7f7 url("images/bg01.png");
@@ -108,6 +113,12 @@
 		letter-spacing: -0.025em;
 	}
 
+	h2b {
+	        font-size: 0.8em;
+		letter-spacing: -0.025em;
+		font-weight: 300;
+	}
+	
 	h3 {
 		font-size: 1.2em;
 		letter-spacing: -0.025em;
