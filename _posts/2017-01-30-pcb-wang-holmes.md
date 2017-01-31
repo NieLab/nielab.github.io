@@ -1,5 +1,5 @@
 ---
-title: New Paper on 'Cell Sorting and Boundary Sharpening between Gene Expression Domains'
+title: New Paper on 'Cell Sorting and Boundary Sharpening'
 featured: /assets/images/pcb-wang-holmes.png
 layout: post
 ---
